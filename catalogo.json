@@ -1,0 +1,26 @@
+[
+    {
+        "title": "CR-V 2024",
+        "image": "https://www.honda.com.br/automoveis/sites/hab/files/2024-02/CR_V_Azul_Astral_2024_Miniatura_Home_0.png",
+        "value": "R$ 50.000,00",
+        "description": "Saiba mais."
+    },
+    {
+        "title": "Honda Civic 2024",
+        "image": "https://www.honda.com.br/automoveis/sites/hab/files/2023-01/Civic%20Híbrido_miniatura_0.png",
+        "value": "R$ 60.000,00",
+        "description": "Saiba mais."
+    },
+    {
+        "title": "HR-V 2024",
+        "image": "https://www.honda.com.br/automoveis/sites/hab/files/2022-09/model-hr-v-2022.png",
+        "value": "R$ 70.000,00",
+        "description": "Saiba mais."
+    },
+    {
+    "title": "New City 2024",
+    "image": "https://www.honda.com.br/automoveis/sites/hab/files/2022-09/model-new-city-sedan.png",
+    "value": "R$ 80.000,00",
+    "description": "Saiba mais."
+    }
+]

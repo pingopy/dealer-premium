@@ -1,0 +1,35 @@
+.catalogo {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os veículos quebrem para a próxima linha quando não houver espaço suficiente */
+  justify-content: center; /* Alinha os veículos horizontalmente no centro */
+  margin-top: 30px; /* Adiciona margem superior para separá-los do slider */
+  position: relative; /* Permite posicionar o catálogo abaixo do slider */
+  top: 20px; /* Ajusta a posição vertical do catálogo em relação ao slider */
+}
+
+.veiculo {
+  width: 300px; /* Largura fixa para cada veículo */
+  margin: 10px; /* Espaçamento entre os veículos */
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+.veiculo img {
+  width: 150px; /* Largura da imagem do veículo */
+  height: auto; /* Altura automática para manter a proporção */
+  margin-bottom: 10px; /* Espaçamento entre a imagem e os outros elementos */
+}
+
+.veiculo-info {
+  margin-top: 10px; /* Adiciona espaço entre a imagem e as informações */
+}
+
+.veiculo h2 {
+  font-family: Helvetica;
+  font-size: 18px; /* Tamanho do nome do veículo */
+  margin-bottom: 5px; /* Espaçamento entre o nome do veículo e as informações */
+}
+
+.veiculo p {
+  font-size: 14px;
+  margin: 0;
+}

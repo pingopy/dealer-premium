@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=3.0">
+  <title>DealerPremium</title>
+  <link rel="stylesheet" href="cabecalho.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="botoes.css"> <!-- Estilos para botões -->
+  <link rel="stylesheet" href="slider.css"> <!-- Estilos para slider -->
+  <link rel="stylesheet" href="catalogo.css"> <!-- Estilos para catálogo -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="rodape.css"> <!-- Estilos para o rodapé -->
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.2.0/uicons-brands/css/uicons-brands.css"> <!-- Importação da biblioteca de ícones de redes sociais -->
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-rounded/css/uicons-solid-rounded.css"> <!-- Importação da biblioteca de ícones gerais -->
+</head>
+<body>
+  <div class="left-bar"></div> <!-- Barra lateral esquerda -->
+  <div class="right-bar"></div> <!-- Barra lateral direita -->
+  <div class="container main-content">
+    <!-- Conteúdo principal -->
+    <header class="header">
+      <h1 class="logo"><img src="https://fontmeme.com/permalink/240330/7d43be4473f117d0b44011a8ea3dd628.png" alt="Logo"></h1>
+      <!-- Frase "Fale Conosco:" e "Siga-nos:" junto com os ícones de redes sociais -->
+      <div class="social-icons">
+        <div class="siga-nos">
+          <p class="siga-nos">Siga-nos:</p>
+        </div>
+        <div class="fale-conosco">
+          <p class="fale-conosco">Fale Conosco:</p>
+          <button class="social-button"><i class="fi-brands-instagram"></i></button>
+          <button class="social-button"><i class="fi-brands-facebook"></i></button>
+          <button class="social-button"><i class="fi-brands-linkedin"></i></button>
+          <div class="wrapper">
+            <div class="button">
+                <div class="icon">
+                    <i class="fi-brands-whatsapp"></i>
+                </div>
+                <span>Mande-nos uma mensagem!</span>
+        </div>
+            <div class="wrapper">
+              <div class="new-button">
+                <div class="new-icon">
+                  <i class="fi-telephone"></i> <!-- Ícone de telefone -->
+                </div>
+                <span>Entre em contato</span> <!-- Texto do botão -->
+              </div>
+            </div>
+
+      </div>
+    </header>
+    <div class="tabs">
+        <button class="tablink" onclick="openTab('pecas')">Peças</button>
+        <button class="tablink" onclick="openTab('seminovos')">Seminovos</button>
+        <button class="tablink" onclick="openTab('novos')">Novos</button>
+        <button class="tablink" onclick="openTab('home')"><i class="fi fi-sr-house-chimney"></i></button>
+        <button class="tablink" onclick="openTab('posvenda')">Pós Venda</button>
+        <button class="tablink" onclick="openTab('faleconosco')">Fale Conosco</button>
+        <button class="tablink" onclick="openTab('quemsomos')">Quem Somos</button>
+
+    </div>
+    <div id="home" class="tabcontent active">
+      <!-- Conteúdo da aba Home -->
+    </div>
+    <div id="novos" class="tabcontent">
+      <!-- Conteúdo da aba Novos -->
+    </div>
+    <div id="seminovos" class="tabcontent">
+      <!-- Conteúdo da aba Seminovos -->
+    </div>
+    <div id="pecas" class="tabcontent">
+      <!-- Conteúdo da aba Peças -->
+    </div>
+    <div id="quemsomos" class="tabcontent">
+      <!-- Conteúdo da aba Quem Somos -->
+    </div>
+    <div class="divisoria"></div> <!-- Divisória -->
+    <div id="slider-container" class="slider-container"></div> <!-- Container para o slider -->
+    <div id="catalogo" class="catalogo"></div> <!-- Container para o catálogo -->
+  </div>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-divider"></div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

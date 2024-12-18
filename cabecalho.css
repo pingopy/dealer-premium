@@ -1,0 +1,239 @@
+/* Estilo para o cabeçalho */
+.header {
+  background-color: black; /* Cor de fundo preta */
+  color: white; /* Cor do texto branco */
+  padding: 10px 0; /* Adiciona espaçamento interno superior e inferior */
+  max-width: 100%;
+}
+
+/* Estilo para o conteúdo do cabeçalho */
+.header-content {
+  max-width: 100%; /* Largura máxima do conteúdo do cabeçalho */
+  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+/* Estilo para a divisória do cabeçalho */
+.header-divider {
+  height: 1px; /* Altura da linha */
+  width: 100%; /* Largura total */
+  background-color: red; /* Cor vermelha */
+}
+.logo {
+  text-align: center; /* Centraliza horizontalmente o conteúdo dentro da div .logo */
+}
+
+.logo img {
+  max-width: 400px; /* Ajuste o tamanho da logo conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block; /* Faz com que a imagem seja exibida como bloco */
+  margin: 0 auto; /* Centraliza horizontalmente a imagem dentro da div .logo */
+}
+/* Estilo para os botões de redes sociais */
+.social-button {
+  color: white;
+  background-color: transparent; /* Remover cor de fundo */
+  border: none; /* Remover borda */
+  outline: none; /* Remover contorno ao focar */
+  cursor: pointer;
+  left: 100px
+}
+
+/* Altera o tamanho dos ícones de redes sociais */
+.social-button i {
+  font-size: 24px;
+}
+
+/* Adicionar espaçamento entre os botões de redes sociais */
+.social-button + .social-button {
+  margin-left: 10px;
+}
+
+/* Estilo para a frase */
+.siga-nos p {
+  font-family: Helvetica;
+  margin-right: 10px; /* Espaçamento à direita para separar da próxima parte */
+  position: absolute;
+  left: 428px; /* Posição horizontal */
+  top: 33px; /* Posição vertical */
+}
+
+/* Ícone Instagram */
+.fi-brands-instagram {
+  position: absolute;
+  left: 500px; /* Posição horizontal */
+  top: 30px; /* Posição vertical */
+}
+.fi-brands-instagram:hover {
+  background-image: linear-gradient(to bottom right,#405de6, #5b51d8,#833ab4, #c13584,#e1306c,#fd1d1d,#f56040 ,#f77737,#fcaf45,#ffdc80 ); /* Adiciona o degradê de rosa para vermelho */
+  -webkit-background-clip: text; /* Aplica o degradê apenas ao texto do ícone */
+  -webkit-text-fill-color: transparent; /* Define a cor do texto do ícone como transparente */
+}
+
+/* Ícone Facebook */
+.fi-brands-facebook {
+    position: absolute;
+    left: 535px; /* Posição horizontal */
+    top: 30px; /* Posição vertical */
+}
+.fi-brands-facebook:hover {
+    color:#3b5998;
+}
+/* Ícone LinkedIn */
+.fi-brands-linkedin{
+    position: absolute;
+    left: 570px; /* Posição horizontal */
+    top: 30px; /* Posição vertical */
+}
+.fi-brands-linkedin:hover {
+  color:#0e76a8;
+}
+
+/* Estilo para a frase "Fale Conosco:" */
+.fale-conosco p {
+  font-family: Helvetica; /* Define a fonte como Helvetica */
+  margin-right: 10px; /* Espaçamento à direita para separar da próxima parte */
+  position: absolute;
+  right: 550px; /* Posição horizontal */
+  top: 33px; /* Posição vertical */
+}
+
+wrapper {
+  position: relative;
+}
+
+.wrapper .button {
+  position: absolute;
+  left: 1310px; /* Ajuste a quantidade de pixels conforme necessário */
+  top: 25px; /* Ajuste a quantidade de pixels conforme necessário */
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: green;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+
+/* Estiliza os botões dentro da classe wrapper, definindo a altura, largura, margem e outras propriedades.
+Aplica uma sombra para efeito de profundidade e uma transição suave para animações */
+
+.wrapper .button:hover {
+  width: 230px;
+}
+
+/* Define o comportamento do botão quando passado o mouse por cima, aumentando sua largura para 200px */
+
+.wrapper .button .icon {
+  position: absolute;
+  bottom: 0px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 40px;
+  transition: all 0.3s ease-out;
+}
+
+/* Estiliza o ícone dentro do botão, definindo a altura, largura, alinhamento, entre outros.
+Também aplica uma transição suave para animações */
+
+.wrapper .button:hover .icon {
+  background: #25d366; /* Green color for WhatsApp */
+}
+
+/* Define o comportamento do ícone quando passado o mouse por cima, alterando a cor de fundo para verde */
+
+.wrapper .button .icon i {
+  position: absolute;
+  left: 5px;
+  top: -3px;
+  font-size: 20px;
+  line-height: 40px;
+  transition: all 0.3s ease-out;
+  color: #ffffff; /* Green color for WhatsApp */
+}
+
+/* Estiliza o ícone dentro do botão, definindo o tamanho da fonte, altura da linha e cor */
+
+.wrapper .button span {
+  font-family: Helvetica;
+  position: absolute;
+  bottom: -5px;
+  left: 33px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 40px;
+  transition: all 0.3s ease-out;
+  color: #ffffff; /* Green color for WhatsApp */
+}
+
+/* Estiliza o texto dentro do botão, definindo o tamanho da fonte, peso, altura da linha, margem e cor */
+
+.wrapper .new-button {
+  position: absolute;
+  left: 1500px; /* Ajustado para expandir para a esquerda */
+  top: 25px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: green;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+  margin-right: auto; /* Define a margem direita como 'auto' para manter o botão alinhado à direita */
+}
+
+.wrapper .new-button:hover {
+  width: 230px;
+  margin-left: -140px; /* Deslocamento para a esquerda para compensar o aumento da largura */
+}
+
+.wrapper .new-button .new-icon {
+  position: absolute;
+  bottom: 3px;
+  right: 3px; /* Ajustado para posicionar o ícone à direita */
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 40px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .new-button:hover .new-icon {
+  background: #25d366; /* Green color for WhatsApp */
+}
+
+.wrapper .new-button .new-icon i {
+  position: absolute;
+  left: 5px;
+  font-size: 20px;
+  line-height: 40px;
+  transition: all 0.3s ease-out;
+  color: #ffffff; /* Green color for WhatsApp */
+}
+
+.wrapper .new-button span {
+  font-family: Helvetica;
+  position: absolute;
+  bottom: -5px;
+  right: 33px; /* Ajustado para posicionar o texto à direita */
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 40px;
+  transition: all 0.3s ease-out;
+  color: #ffffff; /* Green color for WhatsApp */
+}

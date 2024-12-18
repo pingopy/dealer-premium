@@ -1,0 +1,21 @@
+/* Estilo para o rodapé */
+.footer {
+  background-color: black; /* Cor de fundo preta */
+  color: white; /* Cor do texto branco */
+  padding: 0.1px 0; /* Adiciona espaçamento interno superior e inferior */
+  margin-top: 700px;
+}
+
+/* Estilo para o conteúdo do rodapé */
+.footer-content {
+  max-width: 100%; /* Largura máxima do conteúdo do rodapé */
+  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Estilo para a divisória do rodapé */
+.footer-divider {
+  margin-bottom: 150px;
+  height: 1px; /* Altura da linha */
+  width: 100%; /* Largura total */
+  background-color: red; /* Cor vermelha */
+}

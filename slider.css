@@ -1,0 +1,63 @@
+.slider {
+  width: 100%; /* Define a largura do slider */
+}
+
+.slide img {
+  width: 100%; /* Define a largura das imagens dos slides */
+}
+
+.slick-prev, .slick-next {
+  font-size: 0; /* Oculta o texto das setas */
+  width: 50px; /* Largura das setas */
+  height: 50px; /* Altura das setas */
+  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo das setas */
+  z-index: 1; /* Garante que as setas fiquem sobre o slider */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-prev:before, .slick-next:before {
+  content: ''; /* Conteúdo vazio para as setas */
+  display: inline-block;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.slick-prev:before {
+  border-right: 10px solid #fff; /* Cor e espessura da borda da seta esquerda */
+}
+
+.slick-next:before {
+  border-left: 10px solid #fff; /* Cor e espessura da borda da seta direita */
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 10px; /* Distância do indicador ao fundo do slider */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translateX(-50%); /* Centraliza horizontalmente */
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px; /* Espaçamento entre os pontos */
+}
+
+.slick-dots li button {
+  font-size: 0; /* Oculta o texto dos pontos */
+  width: 12px; /* Largura dos pontos */
+  height: 12px; /* Altura dos pontos */
+  border-radius: 50%; /* Torna os pontos circulares */
+  background-color: #fff; /* Cor dos pontos */
+  border: none; /* Remove a borda dos pontos */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transição suave da cor de fundo */
+}
+
+.slick-dots li.slick-active button {
+  background-color: #ff0000; /* Cor dos pontos ativos */
+}
